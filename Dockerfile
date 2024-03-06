@@ -10,4 +10,4 @@ EXPOSE 8080
 
 ENV OTEL_EXPORTER_OTLP_ENDPOINT="http://groundcover-opentelemetry-collector.groundcover:4317"
 
-CMD ["python", "app.py"]
+CMD ["python", "emitter.py"]
